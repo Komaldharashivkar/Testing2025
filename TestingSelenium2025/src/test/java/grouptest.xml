@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="RegressionTest">
+  	<groups>
+  		<run>
+ 			 <include name = "regression"/>
+ 		 </run>
+  	</groups>
+    <classes>
+      <class name="testng.GroupTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="SanityTest">
+  	<groups>
+  		<run>
+ 			 <include name = "sanity"/>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="testng.GroupTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="DependentTestSuite">
+<listeners>
+    <listener class-name = "testng.ListenersTest"></listener>
+</listeners>
+  <test name="Test">
+    <classes>
+      <class name="testng.DependentMethods"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+ <groups>
+ 	<dependencies>
+ 		<group name= "login" depends-on= "openbrowser"></group>
+ 		<group name= "viewacc" depends-on= "login"></group>
+ 		<group name= "logout" depends-on= "viewacc"></group>
+ 	</dependencies>
+ </groups>
+    <classes>
+      <class name="testng.GroupDependency"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

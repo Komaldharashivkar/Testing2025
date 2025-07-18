@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+<!--Data driven Testing-->
+  <test name="Test1">
+  <parameter name= "username" value= "komal@gmail.com"/>
+  <parameter name= "password" value= "komal@1234"/>
+    <classes>
+      <class name="testng.ParamTestForMultiUser"/>
+    </classes>
+  </test> <!-- Test --> 
+  <test name="Test2">
+  <parameter name= "username" value= "8788543210"/>
+  <parameter name= "password" value= "pass@123"/>
+    <classes>
+      <class name="testng.ParamTestForMultiUser"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test3">
+  <parameter name= "username" value= "9955447890"/>
+  <parameter name= "password" value= "cat@12345"/>
+    <classes>
+      <class name="testng.ParamTestForMultiUser"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
