@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--if we have to run methods parallel then set parallel="methods" in test tag-->
+<!-- default thread count is 5 and we can set as thread-count="2" as per requirement-->
+<suite parallel="false" name="Suite">
+  <test name="Test" parallel="methods" thread-count="2">
+    <classes>
+      <class name="testng.ParallelMethods"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

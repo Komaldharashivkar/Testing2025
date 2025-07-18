@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--if we have to run classes parallel then set parallel="classes" in suite tag-->
+<suite parallel="classes" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="testng.ChromeTest"/>
+       <class name="testng.EdgeTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

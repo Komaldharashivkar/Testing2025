@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--If we want to run test parallel then make suite Parallel = "tests" in suite tag-->
+<suite parallel="false" name="Suite">
+  <test name="ChromeTest">
+  <parameter name = "browser" value = "chrome"/>
+    <classes>
+      <class name="testng.CrosBrowserTesting"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="EdgeTest">
+  <parameter name = "browser" value = "edge"/>
+    <classes>
+      <class name="testng.CrosBrowserTesting"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
